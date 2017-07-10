@@ -1,10 +1,10 @@
 {
   "name": "edumate-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A learning management app for the social era.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Rodrigo Mantica",
   "license": "ISC",
@@ -21,8 +21,5 @@
     "passport-jwt": "^2.1.0",
     "passport-local": "^1.0.0",
     "socket.io": "^1.7.3"
-  },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
   }
 }
