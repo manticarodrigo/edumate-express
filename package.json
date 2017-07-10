@@ -1,7 +1,7 @@
 {
   "name": "edumate-server",
   "version": "1.0.0",
-  "description": "A learning management app for the social era.",
+  "description": "A powerful backend for the most advanced learning management platform.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
