@@ -5,6 +5,6 @@ module.exports = function(server) {
     	// the primary socket at '/' 
     });
  
-    var chats = require('../chats')(io);
+    var chats = require('./chats')(io);
     return io;
 };
