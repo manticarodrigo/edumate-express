@@ -13,15 +13,15 @@ exports.createAssignment = function(req, res, next) {
 	Assignment.create({
 		title : req.body.title
 	}, function(err, todo) {
+		if (err) {
+			res.send(err);
+		}
+		Assignment.find(function(err, assignments) {
 			if (err) {
 				res.send(err);
 			}
-			Assignment.find(function(err, assignments) {
-				if (err) {
-					res.send(err);
-				}
-				res.json(assignments);
-			});
+			res.json(assignments);
+		});
 	});
 }
  
