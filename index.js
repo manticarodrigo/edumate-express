@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -12,8 +13,9 @@ mongoose.connect(databaseConfig.url, {
   useMongoClient: true
 });
 
-app.listen(process.env.PORT || 8080);
-console.log("App listening on port 8080");
+var port = process.env.PORT || 8080;
+app.listen(port);
+console.log("App listening on port" + port);
 
 app.use(bodyParser.urlencoded({ extended: false })); // Parses urlencoded bodies
 app.use(bodyParser.json()); // Send JSON responses

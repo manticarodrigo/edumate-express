@@ -17,6 +17,7 @@ function setUserInfo(request) {
 }
  
 exports.login = function(req, res, next) {
+	console.log("login started");
 	var userInfo = setUserInfo(req.user);
 	res.status(200).json({
 		token: 'JWT ' + generateToken(userInfo),
@@ -28,6 +29,7 @@ exports.register = function(req, res, next) {
 	var email = req.body.email;
 	var password = req.body.password;
 	var role = req.body.role;
+	
 	if (!email) {
 		return res.status(422).send({error: 'You must enter an email address'});
 	}

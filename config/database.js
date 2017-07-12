@@ -1,3 +1,3 @@
 module.exports = {
-    'url': 'mongodb://heroku_3z15v82f:safemongo2017@ds013918.mlab.com:13918/heroku_3z15v82f'
+    'url': 'mongodb://heroku_q70430tl:3tan8vqat53osm7ui6dcdc8emp@ds153732.mlab.com:53732/heroku_q70430tl'
 }

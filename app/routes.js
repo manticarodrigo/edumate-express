@@ -7,7 +7,7 @@ var AuthenticationController = require('./controllers/authentication'),
 var requireAuth = passport.authenticate('jwt', {session: false}),
     requireLogin = passport.authenticate('local', {session: false});
  
-module.exports = function(app){
+module.exports = function(app) {
  
     var apiRoutes = express.Router(),
         authRoutes = express.Router(),
@@ -26,8 +26,8 @@ module.exports = function(app){
     // Assignment Routes
     apiRoutes.use('/assignments', assignmentRoutes);
  
-    assignmentRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['guest','student','instructor']), AssignmentController.getAssignments);
-    assignmentRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['student','instructor']), AssignmentController.createAssignment);
+    assignmentRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['guest','learner','instructor']), AssignmentController.getAssignments);
+    assignmentRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor']), AssignmentController.createAssignment);
     assignmentRoutes.delete('/:assignment_id', requireAuth, AuthenticationController.roleAuthorization(['instructor']), AssignmentController.deleteAssignment);
  
     // Set up routes
