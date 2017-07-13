@@ -10,26 +10,53 @@ var localOptions = {
 };
  
 var localLogin = new LocalStrategy(localOptions, function(email, password, done) {
-	User.findOne({
-		email: email
-	}, function(err, user) {
-		if (err) {
-			return done(err);
-		}
-		if (!user) {
-			return done(null, false, {error: 'Login failed. Please try again.'});
-		}
-		user.comparePassword(password, function(err, isMatch) {
+	if (validateEmail(email)) {
+		User.findOne({
+			email: email
+		}, function(err, user) {
 			if (err) {
 				return done(err);
 			}
-			if (!isMatch) {
+			if (!user) {
 				return done(null, false, {error: 'Login failed. Please try again.'});
 			}
-			return done(null, user);
+			user.comparePassword(password, function(err, isMatch) {
+				if (err) {
+					return done(err);
+				}
+				if (!isMatch) {
+					return done(null, false, {error: 'Login failed. Please try again.'});
+				}
+				return done(null, user);
+			});
 		});
-	});
+	} else {
+		User.findOne({
+			username: email
+		}, function(err, user) {
+			if (err) {
+				return done(err);
+			}
+			if (!user) {
+				return done(null, false, {error: 'Login failed. Please try again.'});
+			}
+			user.comparePassword(password, function(err, isMatch) {
+				if (err) {
+					return done(err);
+				}
+				if (!isMatch) {
+					return done(null, false, {error: 'Login failed. Please try again.'});
+				}
+				return done(null, user);
+			});
+		});
+	}
 });
+
+function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
  
 var jwtOptions = {
 	jwtFromRequest: ExtractJwt.fromAuthHeader(),

@@ -15,7 +15,7 @@ mongoose.connect(databaseConfig.url, {
 
 var port = process.env.PORT || 8080;
 app.listen(port);
-console.log("App listening on port" + port);
+console.log("App listening on port " + port);
 
 app.use(bodyParser.urlencoded({ extended: false })); // Parses urlencoded bodies
 app.use(bodyParser.json()); // Send JSON responses

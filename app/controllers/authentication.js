@@ -12,6 +12,7 @@ function setUserInfo(request) {
 	return {
 		_id: request._id,
 		email: request.email,
+		username: request.username,
 		role: request.role
 	};
 }
@@ -27,6 +28,7 @@ exports.login = function(req, res, next) {
  
 exports.register = function(req, res, next) {
 	var email = req.body.email;
+	var username = req.body.email;
 	var password = req.body.password;
 	var role = req.body.role;
 	
@@ -34,29 +36,40 @@ exports.register = function(req, res, next) {
 		return res.status(422).send({error: 'You must enter an email address'});
 	}
 	if (!password) {
-		return res.status(422).send({error: 'You must enter a password'});
+		return res.status(422).send({error: 'You must enter a password.'});
 	}
 	User.findOne({email: email}, function(err, existingUser) {
 		if (err) {
 			return next(err);
 		}
 		if (existingUser) {
-			return res.status(422).send({error: 'That email address is already in use'});
+			return res.status(422).send({error: 'That email address is already in use.'});
 		}
-		var user = new User({
-			email: email,
-			password: password,
-			role: role
-		});
-		user.save(function(err, user){
+
+		User.findOne({username: username}, function(err, existingUser) {
 			if (err) {
 				return next(err);
 			}
-			var userInfo = setUserInfo(user);
-			res.status(201).json({
-				token: 'JWT ' + generateToken(userInfo),
-				user: userInfo
-			})
+			if (existingUser) {
+				return res.status(422).send({error: 'That username is already in use.'});
+				
+			}
+			var user = new User({
+				email: email,
+				username: username,
+				password: password,
+				role: role
+			});
+			user.save(function(err, user) {
+				if (err) {
+					return next(err);
+				}
+				var userInfo = setUserInfo(user);
+				res.status(201).json({
+					token: 'JWT ' + generateToken(userInfo),
+					user: userInfo
+				})
+			});
 		});
 	});
 }

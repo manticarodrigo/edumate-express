@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
  
-var AssignmentSchema = new mongoose.Schema({
+var EntrySchema = new mongoose.Schema({
   title: {
     type: String,
     required: true
@@ -9,4 +9,4 @@ var AssignmentSchema = new mongoose.Schema({
   timestamps: true
 });
  
-module.exports = mongoose.model('Assignment', AssignmentSchema);
+module.exports = mongoose.model('Entry', EntrySchema);

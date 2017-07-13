@@ -1,5 +1,5 @@
 var AuthenticationController = require('./controllers/authentication'),  
-    AssignmentController = require('./controllers/assignments'),  
+    EntryController = require('./controllers/entries'),  
     express = require('express'),
     passportService = require('../config/passport'),
     passport = require('passport');
@@ -11,7 +11,7 @@ module.exports = function(app) {
  
     var apiRoutes = express.Router(),
         authRoutes = express.Router(),
-        assignmentRoutes = express.Router();
+        entryRoutes = express.Router();
  
     // Auth Routes
     apiRoutes.use('/auth', authRoutes);
@@ -23,12 +23,12 @@ module.exports = function(app) {
         res.send({ content: 'Success'});
     });
  
-    // Assignment Routes
-    apiRoutes.use('/assignments', assignmentRoutes);
+    // Entry Routes
+    apiRoutes.use('/entries', entryRoutes);
  
-    assignmentRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['guest','learner','instructor']), AssignmentController.getAssignments);
-    assignmentRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor']), AssignmentController.createAssignment);
-    assignmentRoutes.delete('/:assignment_id', requireAuth, AuthenticationController.roleAuthorization(['instructor']), AssignmentController.deleteAssignment);
+    entryRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['guest','learner','instructor', 'admin']), EntryController.getEntries);
+    entryRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), EntryController.createEntry);
+    entryRoutes.delete('/:entry_id', requireAuth, AuthenticationController.roleAuthorization(['instructor', 'admin']), EntryController.deleteEntry);
  
     // Set up routes
     app.use('/api', apiRoutes);
