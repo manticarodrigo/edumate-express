@@ -14,14 +14,25 @@ var UserSchema = new mongoose.Schema({
     unique: true,
     required: true
   },
+  firstName: {
+    type: String,
+    required: true
+  },
+  lastName: {
+    type: String,
+    required: true
+  },
+  imageUrl: {
+    type: String
+  },
   password: {
     type: String,
     required: true
   },
   role: {
     type: String,
-    enum: ['guest', 'learner', 'instructor', 'admin'],
-    default: 'guest'
+    enum: ['learner', 'instructor', 'admin'],
+    default: 'learner'
   }
 }, {
   timestamps: true

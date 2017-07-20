@@ -12,7 +12,10 @@ function setUserInfo(request) {
 	return {
 		_id: request._id,
 		email: request.email,
+		firstName: request.firstName,
+		lastName: request.lastName,
 		username: request.username,
+		imageUrl: request.imageUrl,
 		role: request.role
 	};
 }
@@ -29,6 +32,8 @@ exports.login = function(req, res, next) {
 exports.register = function(req, res, next) {
 	var email = req.body.email;
 	var username = req.body.email;
+	var firstName = req.body.firstName;
+	var lastName = req.body.lastName;
 	var password = req.body.password;
 	var role = req.body.role;
 	
@@ -57,6 +62,8 @@ exports.register = function(req, res, next) {
 			var user = new User({
 				email: email,
 				username: username,
+				firstName: firstName,
+				lastName: lastName,
 				password: password,
 				role: role
 			});
