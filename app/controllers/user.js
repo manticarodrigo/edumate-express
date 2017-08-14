@@ -1,5 +1,5 @@
-var User = require('../models/user');
-var StorageController = require('./storage');
+const User = require('../models/user');
+const StorageController = require('./storage');
  
 exports.updateImage = function(req, res, next) {
 	if(!req.file) return next();

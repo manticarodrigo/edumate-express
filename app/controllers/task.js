@@ -1,4 +1,4 @@
-var Task = require('../models/task');
+const Task = require('../models/task');
  
 exports.getTasks = function(req, res, next) {
 Task.find(function(err, todos) {

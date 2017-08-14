@@ -1,6 +1,6 @@
-var jwt = require('jsonwebtoken');  
-var User = require('../models/user');
-var authConfig = require('../../config/auth');
+const jwt = require('jsonwebtoken');  
+const User = require('../models/user');
+const authConfig = require('../../config/auth');
 
 function generateToken(user) {
 	return jwt.sign(user, authConfig.secret, {
@@ -8,21 +8,21 @@ function generateToken(user) {
 	});
 }
  
-function setUserInfo(request) {
+function setUserInfo(req) {
 	return {
-		_id: request._id,
-		email: request.email,
-		firstName: request.firstName,
-		lastName: request.lastName,
-		username: request.username,
-		imageUrl: request.imageUrl,
-		role: request.role
+		_id: req._id,
+		email: req.email,
+		firstName: req.firstName,
+		lastName: req.lastName,
+		username: req.username,
+		imageUrl: req.imageUrl,
+		role: req.role
 	};
 }
  
 exports.login = function(req, res, next) {
 	console.log("login started");
-	var userInfo = setUserInfo(req.user);
+	const userInfo = setUserInfo(req.user);
 	res.status(200).json({
 		token: 'JWT ' + generateToken(userInfo),
 		user: userInfo
@@ -30,12 +30,12 @@ exports.login = function(req, res, next) {
 }
  
 exports.register = function(req, res, next) {
-	var email = req.body.email;
-	var username = req.body.email;
-	var firstName = req.body.firstName;
-	var lastName = req.body.lastName;
-	var password = req.body.password;
-	var role = req.body.role;
+	const email = req.body.email;
+	const username = req.body.email;
+	const firstName = req.body.firstName;
+	const lastName = req.body.lastName;
+	const password = req.body.password;
+	const role = req.body.role;
 	
 	if (!email) {
 		return res.status(422).send({error: 'You must enter an email address'});
@@ -59,7 +59,7 @@ exports.register = function(req, res, next) {
 				return res.status(422).send({error: 'That username is already in use.'});
 				
 			}
-			var user = new User({
+			const user = new User({
 				email: email,
 				username: username,
 				firstName: firstName,
@@ -71,7 +71,7 @@ exports.register = function(req, res, next) {
 				if (err) {
 					return next(err);
 				}
-				var userInfo = setUserInfo(user);
+				const userInfo = setUserInfo(user);
 				res.status(201).json({
 					token: 'JWT ' + generateToken(userInfo),
 					user: userInfo
@@ -83,7 +83,7 @@ exports.register = function(req, res, next) {
  
 exports.roleAuthorization = function(roles) {
 	return function(req, res, next) {
-		var user = req.user;
+		const user = req.user;
 		User.findById(user._id, function(err, foundUser) {
 			if (err) {
 				res.status(422).json({error: 'No user found.'});

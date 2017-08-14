@@ -7,13 +7,13 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const databaseConfig = require('./config/database');
-var router = require('./app/routes');
+const router = require('./app/routes');
 
 mongoose.connect(databaseConfig.url, {
   useMongoClient: true
 });
 
-var port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 app.listen(port);
 console.log("App listening on port " + port);
 

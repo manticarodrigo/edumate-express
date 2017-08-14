@@ -1,4 +1,4 @@
-var storageConfig = require('../../config/storage');
+const storageConfig = require('../../config/storage');
 const fs = require('fs')
 
 const bucketName = storageConfig.name;

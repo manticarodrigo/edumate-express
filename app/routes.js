@@ -1,4 +1,4 @@
-var AuthenticationController = require('./controllers/authentication'),
+const AuthenticationController = require('./controllers/authentication'),
     UserController = require('./controllers/user'),
     TaskController = require('./controllers/task'),  
     express = require('express'),
@@ -15,12 +15,12 @@ const multer = Multer({
   fileSize: 5 * 1024 * 1024
 });
  
-var requireAuth = passport.authenticate('jwt', {session: false}),
+const requireAuth = passport.authenticate('jwt', {session: false}),
     requireLogin = passport.authenticate('local', {session: false});
  
 module.exports = function(app) {
  
-	var apiRoutes = express.Router(),
+	const apiRoutes = express.Router(),
 			authRoutes = express.Router(),
 			userRoutes = express.Router(),
 			taskRoutes = express.Router();
@@ -35,7 +35,7 @@ module.exports = function(app) {
 			res.send({ content: 'Success'});
 	});
 
-	// Storage Routes
+	// User Routes
 	apiRoutes.use('/user', userRoutes);
 
 	userRoutes.post('/', requireAuth, UserController.updateUser);
@@ -44,7 +44,7 @@ module.exports = function(app) {
 	// Task Routes
 	apiRoutes.use('/task', taskRoutes);
 
-	taskRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.getTaks);
+	taskRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.getTasks);
 	taskRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.createTask);
 	taskRoutes.delete('/:task_id', requireAuth, AuthenticationController.roleAuthorization(['instructor', 'admin']), TaskController.deleteTask);
 

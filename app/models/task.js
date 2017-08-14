@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
  
-var TaskSchema = new mongoose.Schema({
+const TaskSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true
@@ -12,6 +12,9 @@ var TaskSchema = new mongoose.Schema({
     type: String,
     enum: ['reminder', 'assignment', 'project', 'exam'],
     default: 'reminder'
+  },
+  course: {
+    id: String
   },
   startDate: {
     type: Number
