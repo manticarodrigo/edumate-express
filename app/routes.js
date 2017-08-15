@@ -53,7 +53,7 @@ module.exports = function(app) {
 	// Feed Routes
 	apiRoutes.use('/feed', feedRoutes);
 
-	feedRoutes.get('/', FeedController.search);
+	feedRoutes.get('/:searchTerm', FeedController.search);
 
 	// Set up routes
 	app.use('/api', apiRoutes);
