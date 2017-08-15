@@ -1,6 +1,7 @@
 const AuthenticationController = require('./controllers/authentication'),
     UserController = require('./controllers/user'),
-    TaskController = require('./controllers/task'),  
+    TaskController = require('./controllers/task'),
+		FeedController = require('./controllers/feed'),
     express = require('express'),
     passportService = require('../config/passport'),
     passport = require('passport'),
@@ -23,7 +24,8 @@ module.exports = function(app) {
 	const apiRoutes = express.Router(),
 			authRoutes = express.Router(),
 			userRoutes = express.Router(),
-			taskRoutes = express.Router();
+			taskRoutes = express.Router(),
+			feedRoutes = express.Router();
 
 	// Auth Routes
 	apiRoutes.use('/auth', authRoutes);
@@ -47,6 +49,11 @@ module.exports = function(app) {
 	taskRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.getTasks);
 	taskRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.createTask);
 	taskRoutes.delete('/:task_id', requireAuth, AuthenticationController.roleAuthorization(['instructor', 'admin']), TaskController.deleteTask);
+
+	// Feed Routes
+	apiRoutes.use('/feed', feedRoutes);
+
+	feedRoutes.get('/', FeedController.search);
 
 	// Set up routes
 	app.use('/api', apiRoutes);

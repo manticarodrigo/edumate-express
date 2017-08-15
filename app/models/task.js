@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
  
 const TaskSchema = new mongoose.Schema({
-  title: {
+  name: {
     type: String,
     required: true
   },
@@ -13,8 +13,8 @@ const TaskSchema = new mongoose.Schema({
     enum: ['reminder', 'assignment', 'project', 'exam'],
     default: 'reminder'
   },
-  course: {
-    id: String
+  course_id: {
+    type: String
   },
   startDate: {
     type: Number

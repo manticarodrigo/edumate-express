@@ -10,20 +10,20 @@ exports.updateImage = function(req, res, next) {
 			_id: req.body._id
 		}, {imageUrl: imageUrl}, function(err, user) {
 			if (err) {
-				res.send(err);
+				return res.status(500).send(err);
 			}
 			User.findOne({
 				_id: req.body._id
 			}, function(err, user) {
 				if (err) {
-					res.send(err);
+					return res.status(500).send(err);
 				}
 				res.json(user);
 			});
 		});
 	})
 	.catch(err => {
-		res.send(err);
+		res.status(500).send(err);
 	});
 }
 
@@ -32,13 +32,13 @@ exports.updateUser = function(req, res, next) {
 		_id: req.body._id
 	}, req.body, function(err, user) {
 		if (err) {
-			res.send(err);
+			return res.status(500).send(err);
 		}
 		User.findOne({
 			_id: req.body._id
 		}, function(err, user) {
 			if (err) {
-				res.send(err);
+				return res.status(500).send(err);
 			}
 			res.json(user);
 		});
