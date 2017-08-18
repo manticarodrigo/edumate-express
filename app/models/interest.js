@@ -7,6 +7,10 @@ const InterestSchema = new mongoose.Schema({
  },
  path: {
    type: String
+ },
+ user_id: {
+   type: String,
+   required: true
  }
 }, {
  timestamps: true
@@ -14,4 +18,4 @@ const InterestSchema = new mongoose.Schema({
 
 InterestSchema.index({ path: 1 });
 
-module.exports = mongoose.model('Interest', TaskSchema);
+module.exports = mongoose.model('Interest', InterestSchema);

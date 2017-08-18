@@ -2,6 +2,7 @@ const AuthenticationController = require('./controllers/authentication'),
     UserController = require('./controllers/user'),
     TaskController = require('./controllers/task'),
 		FeedController = require('./controllers/feed'),
+		InterestController = require('./controllers/interest'),
     express = require('express'),
     passportService = require('../config/passport'),
     passport = require('passport'),
@@ -25,7 +26,8 @@ module.exports = function(app) {
 			authRoutes = express.Router(),
 			userRoutes = express.Router(),
 			taskRoutes = express.Router(),
-			feedRoutes = express.Router();
+			feedRoutes = express.Router(),
+			interestRoutes = express.Router();
 
 	// Auth Routes
 	apiRoutes.use('/auth', authRoutes);
@@ -46,14 +48,21 @@ module.exports = function(app) {
 	// Task Routes
 	apiRoutes.use('/task', taskRoutes);
 
-	taskRoutes.get('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.getTasks);
-	taskRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.createTask);
+	taskRoutes.get('/:user_id', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.getTasks);
+	taskRoutes.post('/:user_id', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.createTask);
 	taskRoutes.delete('/:task_id', requireAuth, AuthenticationController.roleAuthorization(['instructor', 'admin']), TaskController.deleteTask);
 
 	// Feed Routes
 	apiRoutes.use('/feed', feedRoutes);
 
-	feedRoutes.get('/:searchTerm', FeedController.search);
+	feedRoutes.get('/:searchTerm', requireAuth, FeedController.search);
+
+	// Interest Routes
+	apiRoutes.use('/interest', interestRoutes);
+	
+	interestRoutes.get('/:user_id', requireAuth, InterestController.getInterests);
+	interestRoutes.post('/:user_id', requireAuth, InterestController.createInterest);
+	interestRoutes.delete('/:interest_id', requireAuth, InterestController.deleteInterest);
 
 	// Set up routes
 	app.use('/api', apiRoutes);
