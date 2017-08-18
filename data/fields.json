@@ -1,0 +1,2716 @@
+[
+  {
+    "name": "Humanities",
+    "subs": [
+      {
+        "name": "Anthropology",
+        "subs": [
+          {
+            "name": "Anthropological criminology"
+          },
+          {
+            "name": "Anthropological linguistics"
+          },
+          {
+            "name": "Biological anthropology"
+          },
+          {
+            "name": "Cultural anthropology"
+          },
+          {
+            "name": "Linguistic anthropology"
+          },
+          {
+            "name": "Social anthropology"
+          }
+        ]
+      },
+      {
+        "name": "History",
+        "subs": [
+          {
+            "name": "African history"
+          },
+          {
+            "name": "American history"
+          },
+          {
+            "name": "Ancient history"
+          },
+          {
+            "name": "Australian history"
+          },
+          {
+            "name": "Asian history"
+          },
+          {
+            "name": "European history"
+          },
+          {
+            "name": "Economic history"
+          },
+          {
+            "name": "Environmental history"
+          },
+          {
+            "name": "Ancient Greek history"
+          },
+          {
+            "name": "Intellectual history"
+          },
+          {
+            "name": "Latin American history"
+          },
+          {
+            "name": "Modern history"
+          },
+          {
+            "name": "Political history"
+          },
+          {
+            "name": "Pre-Columbian era"
+          },
+          {
+            "name": "Ancient Roman history"
+          },
+          {
+            "name": "Russian history"
+          },
+          {
+            "name": "Scientific history"
+          },
+          {
+            "name": "Technological history"
+          },
+          {
+            "name": "World history"
+          }
+        ]
+      },
+      {
+        "name": "Linguistics and languages",
+        "subs": [
+          {
+            "name": "Classics"
+          },
+          {
+            "name": "Languages"
+          },
+          {
+            "name": "Applied linguistics"
+          },
+          {
+            "name": "Computational linguistics"
+          },
+          {
+            "name": "Discourse analysis"
+          },
+          {
+            "name": "English studies"
+          },
+          {
+            "name": "Etymology"
+          },
+          {
+            "name": "Grammar"
+          },
+          {
+            "name": "Historical linguistics"
+          },
+          {
+            "name": "History of linguistics"
+          },
+          {
+            "name": "Interlinguistics"
+          },
+          {
+            "name": "Lexicology"
+          },
+          {
+            "name": "Linguistic typology"
+          },
+          {
+            "name": "Morphology"
+          },
+          {
+            "name": "Natural language processing"
+          },
+          {
+            "name": "Philology"
+          },
+          {
+            "name": "Phonetics"
+          },
+          {
+            "name": "Phonology"
+          },
+          {
+            "name": "Pragmatics"
+          },
+          {
+            "name": "Psycholinguistics"
+          },
+          {
+            "name": "Semantics"
+          },
+          {
+            "name": "Semiotics"
+          },
+          {
+            "name": "Sociolinguistics"
+          },
+          {
+            "name": "Syntax"
+          },
+          {
+            "name": "Composition studies"
+          },
+          {
+            "name": "Rhetoric"
+          },
+          {
+            "name": "Usage"
+          },
+          {
+            "name": "Word usage"
+          }
+        ]
+      },
+      {
+        "name": "Philosophy",
+        "subs": [
+          {
+            "name": "Meta-philosophy"
+          },
+          {
+            "name": "Metaphysics"
+          },
+          {
+            "name": "Epistemology"
+          },
+          {
+            "name": "Ethics"
+          },
+          {
+            "name": "Aesthetics"
+          },
+          {
+            "name": "Social philosophy"
+          },
+          {
+            "name": "Philosophical traditions and schools"
+          },
+          {
+            "name": "History of philosophy"
+          },
+          {
+            "name": "Logic"
+          },
+          {
+            "name": "Applied philosophy"
+          }
+        ]
+      },
+      {
+        "name": "Religion",
+        "subs": [
+          {
+            "name": "Abrahamic religions"
+          },
+          {
+            "name": "Indian religions"
+          },
+          {
+            "name": "East Asian religions"
+          },
+          {
+            "name": "African religions"
+          },
+          {
+            "name": "Comparative religion"
+          },
+          {
+            "name": "Mythology"
+          },
+          {
+            "name": "Irreligion"
+          }
+        ]
+      },
+      {
+        "name": "The arts",
+        "subs": [
+          {
+            "name": "Music"
+          },
+          {
+            "name": "Dance"
+          },
+          {
+            "name": "Television"
+          },
+          {
+            "name": "Theatre"
+          },
+          {
+            "name": "Film"
+          },
+          {
+            "name": "Oral literature"
+          },
+          {
+            "name": "Fine arts"
+          },
+          {
+            "name": "Graphic arts"
+          },
+          {
+            "name": "Sculpture"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Social sciences",
+    "subs": [
+      {
+        "name": "Economics",
+        "subs": [
+          {
+            "name": "Agricultural economics"
+          },
+          {
+            "name": "Anarchist economics"
+          },
+          {
+            "name": "Applied economics"
+          },
+          {
+            "name": "Behavioural economics"
+          },
+          {
+            "name": "Bioeconomics"
+          },
+          {
+            "name": "Complexity economics"
+          },
+          {
+            "name": "Computational economics"
+          },
+          {
+            "name": "Consumer economics"
+          },
+          {
+            "name": "Development economics"
+          },
+          {
+            "name": "Ecological economics"
+          },
+          {
+            "name": "Econometrics"
+          },
+          {
+            "name": "Economic geography"
+          },
+          {
+            "name": "Economic history"
+          },
+          {
+            "name": "Economic sociology"
+          },
+          {
+            "name": "Economic systems"
+          },
+          {
+            "name": "Energy economics"
+          },
+          {
+            "name": "Entrepreneurial economics"
+          },
+          {
+            "name": "Environmental economics"
+          },
+          {
+            "name": "Evolutionary economics"
+          },
+          {
+            "name": "Experimental economics"
+          },
+          {
+            "name": "Feminist economics"
+          },
+          {
+            "name": "Financial economics"
+          },
+          {
+            "name": "Financial econometrics"
+          },
+          {
+            "name": "Green economics"
+          },
+          {
+            "name": "Growth economics"
+          },
+          {
+            "name": "Human development theory"
+          },
+          {
+            "name": "Industrial organization"
+          },
+          {
+            "name": "Information economics"
+          },
+          {
+            "name": "Institutional economics"
+          },
+          {
+            "name": "International economics"
+          },
+          {
+            "name": "Islamic economics"
+          },
+          {
+            "name": "Labor economics"
+          },
+          {
+            "name": "Law and economics"
+          },
+          {
+            "name": "Macroeconomics"
+          },
+          {
+            "name": "Managerial economics"
+          },
+          {
+            "name": "Marxian economics"
+          },
+          {
+            "name": "Mathematical economics"
+          },
+          {
+            "name": "Microeconomics"
+          },
+          {
+            "name": "Monetary economics"
+          },
+          {
+            "name": "Neuroeconomics"
+          },
+          {
+            "name": "Participatory economics"
+          },
+          {
+            "name": "Political economy"
+          },
+          {
+            "name": "Public finance"
+          },
+          {
+            "name": "Public economics"
+          },
+          {
+            "name": "Real estate economics"
+          },
+          {
+            "name": "Resource economics"
+          },
+          {
+            "name": "Social choice theory"
+          },
+          {
+            "name": "Socialist economics"
+          },
+          {
+            "name": "Socioeconomics"
+          },
+          {
+            "name": "Transport economics"
+          },
+          {
+            "name": "Welfare economics"
+          }
+        ]
+      },
+      {
+        "name": "Geography",
+        "subs": [
+          {
+            "name": "Cartography"
+          },
+          {
+            "name": "Human geography"
+          },
+          {
+            "name": "Environmental geography"
+          },
+          {
+            "name": "Physical geography"
+          },
+          {
+            "name": "Regional geography"
+          },
+          {
+            "name": "Remote sensing"
+          }
+        ]
+      },
+      {
+        "name": "Interdisciplinary studies",
+        "subs": [
+          {
+            "name": "Feminine psychology"
+          },
+          {
+            "name": "Gender studies"
+          },
+          {
+            "name": "Heterosexism"
+          },
+          {
+            "name": "Human sexual behavior"
+          },
+          {
+            "name": "Human sexuality"
+          },
+          {
+            "name": "Masculine psychology"
+          },
+          {
+            "name": "Men's studies"
+          },
+          {
+            "name": "Queer studies"
+          },
+          {
+            "name": "Sex education"
+          },
+          {
+            "name": "Sexology"
+          },
+          {
+            "name": "Women's studies"
+          }
+        ]
+      },
+      {
+        "name": "Political science",
+        "subs": [
+          {
+            "name": "American politics"
+          },
+          {
+            "name": "Canadian politics"
+          },
+          {
+            "name": "Civics"
+          },
+          {
+            "name": "Comparative politics"
+          },
+          {
+            "name": "European studies"
+          },
+          {
+            "name": "Geopolitics"
+          },
+          {
+            "name": "International relations"
+          },
+          {
+            "name": "International organizations"
+          },
+          {
+            "name": "Nationalism studies"
+          },
+          {
+            "name": "Peace and conflict studies"
+          },
+          {
+            "name": "Policy studies"
+          },
+          {
+            "name": "Political behavior"
+          },
+          {
+            "name": "Political culture"
+          },
+          {
+            "name": "Political economy"
+          },
+          {
+            "name": "Political history"
+          },
+          {
+            "name": "Political philosophy"
+          },
+          {
+            "name": "Psephology"
+          },
+          {
+            "name": "Public administration"
+          },
+          {
+            "name": "Public policy"
+          },
+          {
+            "name": "Social choice theory"
+          }
+        ]
+      },
+      {
+        "name": "Psychology",
+        "subs": [
+          {
+            "name": "Abnormal psychology"
+          },
+          {
+            "name": "Applied psychology"
+          },
+          {
+            "name": "Asian psychology"
+          },
+          {
+            "name": "Biological psychology"
+          },
+          {
+            "name": "Black psychology"
+          },
+          {
+            "name": "Clinical psychology"
+          },
+          {
+            "name": "Clinical neuropsychology"
+          },
+          {
+            "name": "Cognitive psychology"
+          },
+          {
+            "name": "Community psychology"
+          },
+          {
+            "name": "Comparative psychology"
+          },
+          {
+            "name": "Conservation psychology"
+          },
+          {
+            "name": "Consumer psychology"
+          },
+          {
+            "name": "Counseling psychology"
+          },
+          {
+            "name": "Criminal psychology"
+          },
+          {
+            "name": "Cultural psychology"
+          },
+          {
+            "name": "Developmental psychology"
+          },
+          {
+            "name": "Differential psychology"
+          },
+          {
+            "name": "Ecological psychology"
+          },
+          {
+            "name": "Educational psychology"
+          },
+          {
+            "name": "Environmental psychology"
+          },
+          {
+            "name": "Evolutionary psychology"
+          },
+          {
+            "name": "Experimental psychology"
+          },
+          {
+            "name": "Group psychology"
+          },
+          {
+            "name": "Family psychology"
+          },
+          {
+            "name": "Feminine psychology"
+          },
+          {
+            "name": "Forensic psychology"
+          },
+          {
+            "name": "Forensic developmental psychology"
+          },
+          {
+            "name": "Health psychology"
+          },
+          {
+            "name": "Humanistic psychology"
+          },
+          {
+            "name": "Indigenous psychology"
+          },
+          {
+            "name": "Legal psychology"
+          },
+          {
+            "name": "Masculine psychology"
+          },
+          {
+            "name": "Mathematical psychology"
+          },
+          {
+            "name": "Media psychology"
+          },
+          {
+            "name": "Medical psychology"
+          },
+          {
+            "name": "Military psychology"
+          },
+          {
+            "name": "Moral psychology"
+          },
+          {
+            "name": "Music psychology"
+          },
+          {
+            "name": "Neuropsychology"
+          },
+          {
+            "name": "Occupational psychology"
+          },
+          {
+            "name": "Occupational health psychology"
+          },
+          {
+            "name": "Organizational psychology"
+          },
+          {
+            "name": "Parapsychology"
+          },
+          {
+            "name": "Pediatric psychology"
+          },
+          {
+            "name": "Pedology (children study)"
+          },
+          {
+            "name": "Personality psychology"
+          },
+          {
+            "name": "Phenomenology"
+          },
+          {
+            "name": "Political psychology"
+          },
+          {
+            "name": "Positive psychology"
+          },
+          {
+            "name": "Psychoanalysis"
+          },
+          {
+            "name": "Psychobiology"
+          },
+          {
+            "name": "Psychometrics"
+          },
+          {
+            "name": "Psychology of religion"
+          },
+          {
+            "name": "Psychopathology"
+          },
+          {
+            "name": "Psychophysics"
+          },
+          {
+            "name": "Quantitative psychology"
+          },
+          {
+            "name": "Rehabilitation psychology"
+          },
+          {
+            "name": "School psychology"
+          },
+          {
+            "name": "Social psychology"
+          },
+          {
+            "name": "Sport psychology"
+          },
+          {
+            "name": "Traffic psychology"
+          },
+          {
+            "name": "Transpersonal psychology"
+          },
+          {
+            "name": "Travel psychology"
+          }
+        ]
+      },
+      {
+        "name": "Sociology",
+        "subs": [
+          {
+            "name": "Analytical sociology"
+          },
+          {
+            "name": "Applied sociology"
+          },
+          {
+            "name": "Architectural sociology"
+          },
+          {
+            "name": "Behavioral sociology"
+          },
+          {
+            "name": "Chinese sociology"
+          },
+          {
+            "name": "Collective behavior"
+          },
+          {
+            "name": "Community informatics"
+          },
+          {
+            "name": "Comparative sociology"
+          },
+          {
+            "name": "Conflict theory"
+          },
+          {
+            "name": "Critical sociology"
+          },
+          {
+            "name": "Cultural sociology"
+          },
+          {
+            "name": "Cultural studies"
+          },
+          {
+            "name": "Criminology"
+          },
+          {
+            "name": "Critical management studies"
+          },
+          {
+            "name": "Demography"
+          },
+          {
+            "name": "Digital sociology"
+          },
+          {
+            "name": "Dramaturgical sociology"
+          },
+          {
+            "name": "Economic sociology"
+          },
+          {
+            "name": "Educational sociology"
+          },
+          {
+            "name": "Empirical sociology"
+          },
+          {
+            "name": "Environmental sociology"
+          },
+          {
+            "name": "Evolutionary sociology"
+          },
+          {
+            "name": "Feminist sociology"
+          },
+          {
+            "name": "Figurational sociology"
+          },
+          {
+            "name": "Futures studies"
+          },
+          {
+            "name": "Historical sociology"
+          },
+          {
+            "name": "Human ecology"
+          },
+          {
+            "name": "Humanistic sociology"
+          },
+          {
+            "name": "Industrial sociology"
+          },
+          {
+            "name": "Interactionism"
+          },
+          {
+            "name": "Internet sociology"
+          },
+          {
+            "name": "Interpretive sociology"
+          },
+          {
+            "name": "Jealousy sociology"
+          },
+          {
+            "name": "Macrosociology"
+          },
+          {
+            "name": "Marxist sociology"
+          },
+          {
+            "name": "Mathematical sociology"
+          },
+          {
+            "name": "Medical sociology"
+          },
+          {
+            "name": "Mesosociology"
+          },
+          {
+            "name": "Microsociology"
+          },
+          {
+            "name": "Military sociology"
+          },
+          {
+            "name": "Natural resource sociology"
+          },
+          {
+            "name": "Organizational studies"
+          },
+          {
+            "name": "Phenomenological sociology"
+          },
+          {
+            "name": "Policy sociology"
+          },
+          {
+            "name": "Polish sociology"
+          },
+          {
+            "name": "Psychoanalytic sociology"
+          },
+          {
+            "name": "Science studies"
+          },
+          {
+            "name": "Sexology"
+          },
+          {
+            "name": "Social capital"
+          },
+          {
+            "name": "Social change"
+          },
+          {
+            "name": "Social conflict theory"
+          },
+          {
+            "name": "Social control"
+          },
+          {
+            "name": "Social economy"
+          },
+          {
+            "name": "Social philosophy"
+          },
+          {
+            "name": "Social psychology"
+          },
+          {
+            "name": "Social policy"
+          },
+          {
+            "name": "Social research"
+          },
+          {
+            "name": "Social transformation"
+          },
+          {
+            "name": "Sociology of aging"
+          },
+          {
+            "name": "Sociology of agriculture"
+          },
+          {
+            "name": "Sociology of art"
+          },
+          {
+            "name": "Sociology of autism"
+          },
+          {
+            "name": "Sociology of childhood"
+          },
+          {
+            "name": "Sociology of conflict"
+          },
+          {
+            "name": "Sociology of culture"
+          },
+          {
+            "name": "Sociology of cyberspace"
+          },
+          {
+            "name": "Sociology of deviance"
+          },
+          {
+            "name": "Sociology of development"
+          },
+          {
+            "name": "Sociology of disaster"
+          },
+          {
+            "name": "Sociology of education"
+          },
+          {
+            "name": "Sociology of emotions"
+          },
+          {
+            "name": "Sociology of fatherhood"
+          },
+          {
+            "name": "Sociology of film"
+          },
+          {
+            "name": "Sociology of finance"
+          },
+          {
+            "name": "Sociology of food"
+          },
+          {
+            "name": "Sociology of gender"
+          },
+          {
+            "name": "Sociology of generations"
+          },
+          {
+            "name": "Sociology of globalization"
+          },
+          {
+            "name": "Sociology of government"
+          },
+          {
+            "name": "Sociology of health and illness"
+          },
+          {
+            "name": "Sociology of human consciousness"
+          },
+          {
+            "name": "Sociology of immigration"
+          },
+          {
+            "name": "Sociology of knowledge"
+          },
+          {
+            "name": "Sociology of language"
+          },
+          {
+            "name": "Sociology of law"
+          },
+          {
+            "name": "Sociology of leisure"
+          },
+          {
+            "name": "Sociology of literature"
+          },
+          {
+            "name": "Sociology of markets"
+          },
+          {
+            "name": "Sociology of marriage"
+          },
+          {
+            "name": "Sociology of motherhood"
+          },
+          {
+            "name": "Sociology of music"
+          },
+          {
+            "name": "Sociology of natural resources"
+          },
+          {
+            "name": "Sociology of organizations"
+          },
+          {
+            "name": "Sociology of peace, war, and social conflict"
+          },
+          {
+            "name": "Sociology of punishment"
+          },
+          {
+            "name": "Sociology of race and ethnic relations"
+          },
+          {
+            "name": "Sociology of religion"
+          },
+          {
+            "name": "Sociology of risk"
+          },
+          {
+            "name": "Sociology of science"
+          },
+          {
+            "name": "Sociology of scientific knowledge"
+          },
+          {
+            "name": "Sociology of social change"
+          },
+          {
+            "name": "Sociology of social movements"
+          },
+          {
+            "name": "Sociology of space"
+          },
+          {
+            "name": "Sociology of sport"
+          },
+          {
+            "name": "Sociology of technology"
+          },
+          {
+            "name": "Sociology of terrorism"
+          },
+          {
+            "name": "Sociology of the body"
+          },
+          {
+            "name": "Sociology of the family"
+          },
+          {
+            "name": "Sociology of the history of science"
+          },
+          {
+            "name": "Sociology of the Internet"
+          },
+          {
+            "name": "Sociology of work"
+          },
+          {
+            "name": "Social theory"
+          },
+          {
+            "name": "Social stratification"
+          },
+          {
+            "name": "Sociological theory"
+          },
+          {
+            "name": "Sociobiology"
+          },
+          {
+            "name": "Sociocybernetics"
+          },
+          {
+            "name": "Sociolinguistics"
+          },
+          {
+            "name": "Sociomusicology"
+          },
+          {
+            "name": "Structural sociology"
+          },
+          {
+            "name": "Theoretical sociology"
+          },
+          {
+            "name": "Urban studies"
+          },
+          {
+            "name": "Victimology"
+          },
+          {
+            "name": "Visual sociology"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Natural sciences",
+    "subs": [
+      {
+        "name": "Biology",
+        "subs": [
+          {
+            "name": "Aerobiology"
+          },
+          {
+            "name": "Anatomy"
+          },
+          {
+            "name": "Biochemistry"
+          },
+          {
+            "name": "Bioinformatics"
+          },
+          {
+            "name": "Biophysics"
+          },
+          {
+            "name": "Biotechnology"
+          },
+          {
+            "name": "Botany"
+          },
+          {
+            "name": "Cell biology"
+          },
+          {
+            "name": "Chronobiology"
+          },
+          {
+            "name": "Computational biology"
+          },
+          {
+            "name": "Cryobiology"
+          },
+          {
+            "name": "Developmental biology"
+          },
+          {
+            "name": "Ecology"
+          },
+          {
+            "name": "Genetics"
+          },
+          {
+            "name": "Endocrinology"
+          },
+          {
+            "name": "Evolutionary biology"
+          },
+          {
+            "name": "Histology"
+          },
+          {
+            "name": "Human biology"
+          },
+          {
+            "name": "Immunology"
+          },
+          {
+            "name": "Limnology"
+          },
+          {
+            "name": "Linnaean taxonomy"
+          },
+          {
+            "name": "Marine biology"
+          },
+          {
+            "name": "Mathematical biology"
+          },
+          {
+            "name": "Microbiology"
+          },
+          {
+            "name": "Molecular biology"
+          },
+          {
+            "name": "Mycology"
+          },
+          {
+            "name": "Neuroscience"
+          },
+          {
+            "name": "Nutrition"
+          },
+          {
+            "name": "Paleobiology"
+          },
+          {
+            "name": "Parasitology"
+          },
+          {
+            "name": "Pathology"
+          },
+          {
+            "name": "Physiology"
+          },
+          {
+            "name": "Structural Biology"
+          },
+          {
+            "name": "Systematics"
+          },
+          {
+            "name": "Systems biology"
+          },
+          {
+            "name": "Virology"
+          },
+          {
+            "name": "Xenobiology"
+          },
+          {
+            "name": "Zoology"
+          }
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "subs": [
+          {
+            "name": "Agrochemistry"
+          },
+          {
+            "name": "Analytical chemistry"
+          },
+          {
+            "name": "Astrochemistry"
+          },
+          {
+            "name": "Atmospheric chemistry"
+          },
+          {
+            "name": "Biochemistry"
+          },
+          {
+            "name": "Chemical engineering"
+          },
+          {
+            "name": "Chemical biology"
+          },
+          {
+            "name": "Cheminformatics"
+          },
+          {
+            "name": "Computational chemistry"
+          },
+          {
+            "name": "Cosmochemistry"
+          },
+          {
+            "name": "Electrochemistry"
+          },
+          {
+            "name": "Environmental chemistry"
+          },
+          {
+            "name": "Femtochemistry"
+          },
+          {
+            "name": "Flavor"
+          },
+          {
+            "name": "Flow chemistry"
+          },
+          {
+            "name": "Geochemistry"
+          },
+          {
+            "name": "Green chemistry"
+          },
+          {
+            "name": "Histochemistry"
+          },
+          {
+            "name": "Hydrogenation"
+          },
+          {
+            "name": "Immunochemistry"
+          },
+          {
+            "name": "Inorganic chemistry"
+          },
+          {
+            "name": "Marine chemistry"
+          },
+          {
+            "name": "Mathematical chemistry"
+          },
+          {
+            "name": "Mechanochemistry"
+          },
+          {
+            "name": "Medicinal chemistry"
+          },
+          {
+            "name": "Molecular biology"
+          },
+          {
+            "name": "Molecular mechanics"
+          },
+          {
+            "name": "Nanotechnology"
+          },
+          {
+            "name": "Natural product chemistry"
+          },
+          {
+            "name": "Neurochemistry"
+          },
+          {
+            "name": "Oenology"
+          },
+          {
+            "name": "Organic chemistry"
+          },
+          {
+            "name": "Organometallic chemistry"
+          },
+          {
+            "name": "Petrochemistry"
+          },
+          {
+            "name": "Pharmacology"
+          },
+          {
+            "name": "Photochemistry"
+          },
+          {
+            "name": "Physical chemistry"
+          },
+          {
+            "name": "Physical organic chemistry"
+          },
+          {
+            "name": "Phytochemistry"
+          },
+          {
+            "name": "Polymer chemistry"
+          },
+          {
+            "name": "Quantum chemistry"
+          },
+          {
+            "name": "Radiochemistry"
+          },
+          {
+            "name": "Solid-state chemistry"
+          },
+          {
+            "name": "Sonochemistry"
+          },
+          {
+            "name": "Supramolecular chemistry"
+          },
+          {
+            "name": "Surface chemistry"
+          },
+          {
+            "name": "Synthetic chemistry"
+          },
+          {
+            "name": "Theoretical chemistry"
+          },
+          {
+            "name": "Thermochemistry"
+          }
+        ]
+      },
+      {
+        "name": "Earth sciences",
+        "subs": [
+          {
+            "name": "Edaphology"
+          },
+          {
+            "name": "Environmental science"
+          },
+          {
+            "name": "Environmental chemistry"
+          },
+          {
+            "name": "Gemology"
+          },
+          {
+            "name": "Geodesy"
+          },
+          {
+            "name": "Geography"
+          },
+          {
+            "name": "Geology"
+          },
+          {
+            "name": "Geochemistry"
+          },
+          {
+            "name": "Geomorphology"
+          },
+          {
+            "name": "Geophysics"
+          },
+          {
+            "name": "Glaciology"
+          },
+          {
+            "name": "Hydrogeology"
+          },
+          {
+            "name": "Hydrology"
+          },
+          {
+            "name": "Meteorology"
+          },
+          {
+            "name": "Mineralogy"
+          },
+          {
+            "name": "Oceanography"
+          },
+          {
+            "name": "Pedology"
+          },
+          {
+            "name": "Paleontology"
+          },
+          {
+            "name": "Petrology"
+          },
+          {
+            "name": "Planetary science"
+          },
+          {
+            "name": "Sedimentology"
+          },
+          {
+            "name": "Soil science"
+          },
+          {
+            "name": "Speleology"
+          },
+          {
+            "name": "Tectonics"
+          },
+          {
+            "name": "Volcanology"
+          }
+        ]
+      },
+      {
+        "name": "Physics",
+        "subs": [
+          {
+            "name": "Acoustics"
+          },
+          {
+            "name": "Applied physics"
+          },
+          {
+            "name": "Astrophysics"
+          },
+          {
+            "name": "Atomic, molecular, and optical physics"
+          },
+          {
+            "name": "Biophysics"
+          },
+          {
+            "name": "Computational physics"
+          },
+          {
+            "name": "Condensed matter physics"
+          },
+          {
+            "name": "Cryogenics"
+          },
+          {
+            "name": "Electromagnetism"
+          },
+          {
+            "name": "Elementary particle physics"
+          },
+          {
+            "name": "Experimental physics"
+          },
+          {
+            "name": "Fluid dynamics"
+          },
+          {
+            "name": "Geophysics"
+          },
+          {
+            "name": "Mathematical physics"
+          },
+          {
+            "name": "Medical physics"
+          },
+          {
+            "name": "Mechanics"
+          },
+          {
+            "name": "Molecular physics"
+          },
+          {
+            "name": "Newtonian dynamics"
+          },
+          {
+            "name": "Nuclear physics"
+          },
+          {
+            "name": "Optics"
+          },
+          {
+            "name": "Plasma physics"
+          },
+          {
+            "name": "Quantum physics"
+          },
+          {
+            "name": "Solid mechanics"
+          },
+          {
+            "name": "Solid state physics"
+          },
+          {
+            "name": "Statistical mechanics"
+          },
+          {
+            "name": "Theoretical physics"
+          },
+          {
+            "name": "Thermodynamics"
+          },
+          {
+            "name": "Vehicle dynamics"
+          }
+        ]
+      },
+      {
+        "name": "Space sciences",
+        "subs": [
+          {
+            "name": "Astrobiology"
+          },
+          {
+            "name": "Astronomy"
+          },
+          {
+            "name": "Astrophysics"
+          },
+          {
+            "name": "Interstellar medium"
+          },
+          {
+            "name": "Planetary science"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Formal sciences",
+    "subs": [
+      {
+        "name": "Computer sciences",
+        "subs": [
+          {
+            "name": "Theory of computation"
+          },
+          {
+            "name": "VLSI design"
+          },
+          {
+            "name": "Operating systems"
+          },
+          {
+            "name": "Algorithms"
+          },
+          {
+            "name": "Data structures"
+          },
+          {
+            "name": "Computer architecture"
+          },
+          {
+            "name": "Computer communications (networks)"
+          },
+          {
+            "name": "Computer security"
+          },
+          {
+            "name": "Distributed computing"
+          },
+          {
+            "name": "Parallel computing"
+          },
+          {
+            "name": "Quantum computing"
+          },
+          {
+            "name": "Computer graphics"
+          },
+          {
+            "name": "Software engineering"
+          },
+          {
+            "name": "Programming languages"
+          },
+          {
+            "name": "Human-computer interaction"
+          },
+          {
+            "name": "Information science"
+          },
+          {
+            "name": "Artificial intelligence"
+          },
+          {
+            "name": "mathematics"
+          },
+          {
+            "name": "social sciences"
+          }
+        ]
+      },
+      {
+        "name": "Logic",
+        "subs": [
+          {
+            "name": "Mathematical logic"
+          },
+          {
+            "name": "Philosophical logic"
+          },
+          {
+            "name": "Logic in computer science"
+          }
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "subs": [
+          {
+            "name": "Algebra"
+          },
+          {
+            "name": "Analysis"
+          },
+          {
+            "name": "Probability theory"
+          },
+          {
+            "name": "Geometry"
+          },
+          {
+            "name": "Number theory"
+          },
+          {
+            "name": "Logic"
+          },
+          {
+            "name": "Approximation theory"
+          },
+          {
+            "name": "Numerical analysis"
+          },
+          {
+            "name": "Operations research"
+          },
+          {
+            "name": "Dynamical systems"
+          },
+          {
+            "name": "Mathematical physics"
+          },
+          {
+            "name": "Theory of computation"
+          },
+          {
+            "name": "Information theory"
+          },
+          {
+            "name": "Cryptography"
+          },
+          {
+            "name": "Combinatorics"
+          },
+          {
+            "name": "Graph theory"
+          },
+          {
+            "name": "Game theory"
+          },
+          {
+            "name": "Mathematical statistics"
+          },
+          {
+            "name": "Econometrics"
+          },
+          {
+            "name": "Actuarial science"
+          },
+          {
+            "name": "Demography"
+          },
+          {
+            "name": "Computational statistics"
+          },
+          {
+            "name": "Design of experiments"
+          },
+          {
+            "name": "Sample Survey"
+          },
+          {
+            "name": "Statistical modelling"
+          },
+          {
+            "name": "Statistical theory"
+          }
+        ]
+      },
+      {
+        "name": "Systems science",
+        "subs": [
+          {
+            "name": "Network science"
+          },
+          {
+            "name": "Chaos theory"
+          },
+          {
+            "name": "Conceptual systems"
+          },
+          {
+            "name": "Complex systems"
+          },
+          {
+            "name": "Complex system"
+          },
+          {
+            "name": "Cybernetics"
+          },
+          {
+            "name": "Control theory"
+          },
+          {
+            "name": "Operations research"
+          },
+          {
+            "name": "Systems biology"
+          },
+          {
+            "name": "System dynamics"
+          },
+          {
+            "name": "Systems ecology"
+          },
+          {
+            "name": "Systems engineering"
+          },
+          {
+            "name": "Systems theory in anthropology"
+          },
+          {
+            "name": "Systems psychology"
+          },
+          {
+            "name": "Systems theory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Professions and applied sciences",
+    "subs": [
+      {
+        "name": "Agriculture",
+        "subs": [
+          {
+            "name": "Agroecology"
+          },
+          {
+            "name": "Agronomy"
+          },
+          {
+            "name": "Animal husbandry"
+          },
+          {
+            "name": "Agrology"
+          },
+          {
+            "name": "Entomology"
+          },
+          {
+            "name": "Agricultural economics"
+          },
+          {
+            "name": "Agricultural engineering"
+          },
+          {
+            "name": "Aquaculture"
+          },
+          {
+            "name": "Enology"
+          },
+          {
+            "name": "Food science"
+          },
+          {
+            "name": "Horticulture"
+          },
+          {
+            "name": "Hydrology"
+          },
+          {
+            "name": "Pedology (soil study)"
+          },
+          {
+            "name": "Plant science"
+          },
+          {
+            "name": "Viticulture"
+          }
+        ]
+      },
+      {
+        "name": "Architecture and design",
+        "subs": [
+          {
+            "name": "Architecture"
+          },
+          {
+            "name": "Architectural analytics"
+          },
+          {
+            "name": "Historic preservation"
+          },
+          {
+            "name": "Interior design"
+          },
+          {
+            "name": "Landscape architecture"
+          },
+          {
+            "name": "Landscape design"
+          },
+          {
+            "name": "Urban planning"
+          },
+          {
+            "name": "Visual communication"
+          },
+          {
+            "name": "Industrial design"
+          },
+          {
+            "name": "User experience design"
+          },
+          {
+            "name": "Fashion design"
+          },
+          {
+            "name": "Textile design"
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "subs": [
+          {
+            "name": "Accounting scholarship"
+          },
+          {
+            "name": "Business administration"
+          },
+          {
+            "name": "Business analysis"
+          },
+          {
+            "name": "Business ethics"
+          },
+          {
+            "name": "Business law"
+          },
+          {
+            "name": "E-Business"
+          },
+          {
+            "name": "Entrepreneurship"
+          },
+          {
+            "name": "Finance"
+          },
+          {
+            "name": "Industrial and labor relations"
+          },
+          {
+            "name": "Information systems"
+          },
+          {
+            "name": "Information technology"
+          },
+          {
+            "name": "International trade"
+          },
+          {
+            "name": "Management"
+          },
+          {
+            "name": "Marketing"
+          },
+          {
+            "name": "Operations management"
+          },
+          {
+            "name": "Purchasing"
+          },
+          {
+            "name": "Risk management"
+          },
+          {
+            "name": "Systems science"
+          }
+        ]
+      },
+      {
+        "name": "Divinity",
+        "subs": [
+          {
+            "name": "Canon law"
+          },
+          {
+            "name": "Church history"
+          },
+          {
+            "name": "Pastoral counseling"
+          },
+          {
+            "name": "Hermeneutics"
+          },
+          {
+            "name": "Biblical Hebrew"
+          },
+          {
+            "name": "Theology"
+          }
+        ]
+      },
+      {
+        "name": "Education",
+        "subs": [
+          {
+            "name": "Comparative education"
+          },
+          {
+            "name": "Critical pedagogy"
+          },
+          {
+            "name": "Curriculum and instruction"
+          },
+          {
+            "name": "Educational leadership"
+          },
+          {
+            "name": "Educational philosophy"
+          },
+          {
+            "name": "Educational psychology"
+          },
+          {
+            "name": "Educational technology"
+          },
+          {
+            "name": "Distance education"
+          }
+        ]
+      },
+      {
+        "name": "Engineering and technology",
+        "subs": [
+          {
+            "name": "Bioengineering"
+          },
+          {
+            "name": "Catalysis"
+          },
+          {
+            "name": "Materials engineering"
+          },
+          {
+            "name": "Molecular engineering"
+          },
+          {
+            "name": "Nanotechnology"
+          },
+          {
+            "name": "Polymer engineering"
+          },
+          {
+            "name": "Process design"
+          },
+          {
+            "name": "Process engineering"
+          },
+          {
+            "name": "Reaction engineering"
+          },
+          {
+            "name": "Thermodynamics"
+          },
+          {
+            "name": "Transport phenomena"
+          },
+          {
+            "name": "Coastal engineering"
+          },
+          {
+            "name": "Earthquake engineering"
+          },
+          {
+            "name": "Ecological engineering"
+          },
+          {
+            "name": "Environmental engineering"
+          },
+          {
+            "name": "Geotechnical engineering"
+          },
+          {
+            "name": "Hydraulic engineering"
+          },
+          {
+            "name": "Mining engineering"
+          },
+          {
+            "name": "Transportation engineering"
+          },
+          {
+            "name": "Structural engineering"
+          },
+          {
+            "name": "Structural mechanics"
+          },
+          {
+            "name": "Surveying"
+          },
+          {
+            "name": "Applied physics"
+          },
+          {
+            "name": "Computer engineering"
+          },
+          {
+            "name": "Computer science"
+          },
+          {
+            "name": "Control systems engineering"
+          },
+          {
+            "name": "Electronic engineering"
+          },
+          {
+            "name": "Engineering physics"
+          },
+          {
+            "name": "Information theory"
+          },
+          {
+            "name": "Mechatronics"
+          },
+          {
+            "name": "Power engineering"
+          },
+          {
+            "name": "Robotics"
+          },
+          {
+            "name": "Semiconductors"
+          },
+          {
+            "name": "Telecommunications engineering"
+          },
+          {
+            "name": "Quantum computing"
+          },
+          {
+            "name": "Biomaterials"
+          },
+          {
+            "name": "Ceramic engineering"
+          },
+          {
+            "name": "Crystallography"
+          },
+          {
+            "name": "Nanomaterials"
+          },
+          {
+            "name": "Photonics"
+          },
+          {
+            "name": "Physical Metallurgy"
+          },
+          {
+            "name": "Polymer engineering"
+          },
+          {
+            "name": "Polymer science"
+          },
+          {
+            "name": "Semiconductors"
+          },
+          {
+            "name": "Aerospace engineering"
+          },
+          {
+            "name": "Acoustical engineering"
+          },
+          {
+            "name": "Automotive engineering"
+          },
+          {
+            "name": "Biomedical engineering"
+          },
+          {
+            "name": "Continuum mechanics"
+          },
+          {
+            "name": "Fluid mechanics"
+          },
+          {
+            "name": "Heat transfer"
+          },
+          {
+            "name": "Industrial engineering"
+          },
+          {
+            "name": "Manufacturing engineering"
+          },
+          {
+            "name": "Marine engineering"
+          },
+          {
+            "name": "Mass transfer"
+          },
+          {
+            "name": "Mechatronics"
+          },
+          {
+            "name": "Nanoengineering"
+          },
+          {
+            "name": "Ocean engineering"
+          },
+          {
+            "name": "Optical engineering"
+          },
+          {
+            "name": "Robotics"
+          },
+          {
+            "name": "Thermodynamics"
+          },
+          {
+            "name": "Vehicle engineering"
+          }
+        ]
+      },
+      {
+        "name": "Environmental studies and forestry",
+        "subs": [
+          {
+            "name": "Environmental management"
+          },
+          {
+            "name": "Environmental policy"
+          },
+          {
+            "name": "Recreation ecology"
+          },
+          {
+            "name": "Silviculture"
+          },
+          {
+            "name": "Sustainability studies"
+          },
+          {
+            "name": "Toxicology"
+          }
+        ]
+      },
+      {
+        "name": "Family and consumer science",
+        "subs": [
+          {
+            "name": "Consumer education"
+          },
+          {
+            "name": "Interior design"
+          },
+          {
+            "name": "Nutrition"
+          },
+          {
+            "name": "Textiles"
+          }
+        ]
+      },
+      {
+        "name": "Human physical performance and recreation",
+        "subs": [
+          {
+            "name": "Biomechanics"
+          },
+          {
+            "name": "Sports coaching"
+          },
+          {
+            "name": "Dance"
+          },
+          {
+            "name": "Ergonomics"
+          },
+          {
+            "name": "Physical fitness"
+          },
+          {
+            "name": "Game design"
+          },
+          {
+            "name": "Exercise physiology"
+          },
+          {
+            "name": "Kinesiology"
+          },
+          {
+            "name": "Leisure studies"
+          },
+          {
+            "name": "Physical education"
+          },
+          {
+            "name": "Sociology of sport"
+          },
+          {
+            "name": "Sexology"
+          },
+          {
+            "name": "sportscasting"
+          },
+          {
+            "name": "Sport management"
+          },
+          {
+            "name": "Sport psychology"
+          },
+          {
+            "name": "Sports medicine"
+          },
+          {
+            "name": "Toy and amusement design"
+          }
+        ]
+      },
+      {
+        "name": "Journalism, media studies and communication",
+        "subs": [
+          {
+            "name": "Journalism"
+          },
+          {
+            "name": "Media studies"
+          },
+          {
+            "name": "Communication studies"
+          }
+        ]
+      },
+      {
+        "name": "Law",
+        "subs": [
+          {
+            "name": "Legal management"
+          },
+          {
+            "name": "Administrative law"
+          },
+          {
+            "name": "Canon law"
+          },
+          {
+            "name": "Comparative law"
+          },
+          {
+            "name": "Constitutional law"
+          },
+          {
+            "name": "Competition law"
+          },
+          {
+            "name": "Criminal law"
+          },
+          {
+            "name": "Islamic law"
+          },
+          {
+            "name": "Jewish law"
+          },
+          {
+            "name": "Jurisprudence"
+          },
+          {
+            "name": "Civil law"
+          },
+          {
+            "name": "Procedural law"
+          },
+          {
+            "name": "Substantive law"
+          }
+        ]
+      },
+      {
+        "name": "Library and museum studies",
+        "subs": [
+          {
+            "name": "Archival science"
+          },
+          {
+            "name": "Bibliometrics"
+          },
+          {
+            "name": "Conservation science"
+          },
+          {
+            "name": "Informatics"
+          },
+          {
+            "name": "Information architecture"
+          },
+          {
+            "name": "Information science"
+          },
+          {
+            "name": "Museology"
+          }
+        ]
+      },
+      {
+        "name": "Medicine",
+        "subs": [
+          {
+            "name": "Alternative medicine"
+          },
+          {
+            "name": "Clinical laboratory sciences"
+          },
+          {
+            "name": "Clinical physiology"
+          },
+          {
+            "name": "Dentistry"
+          },
+          {
+            "name": "Dermatology"
+          },
+          {
+            "name": "Emergency medicine"
+          },
+          {
+            "name": "Health informatics"
+          },
+          {
+            "name": "Music therapy"
+          },
+          {
+            "name": "Nursing"
+          },
+          {
+            "name": "Nutrition"
+          },
+          {
+            "name": "Optometry"
+          },
+          {
+            "name": "Orthoptics"
+          },
+          {
+            "name": "Physiotherapy"
+          },
+          {
+            "name": "Occupational therapy"
+          },
+          {
+            "name": "Speech and language pathology"
+          },
+          {
+            "name": "Internal medicine"
+          },
+          {
+            "name": "Pharmacy"
+          },
+          {
+            "name": "Pharmaceutical sciences"
+          },
+          {
+            "name": "Physical fitness"
+          },
+          {
+            "name": "Physical therapy"
+          },
+          {
+            "name": "Podiatry"
+          },
+          {
+            "name": "Primary care"
+          },
+          {
+            "name": "Psychiatry"
+          },
+          {
+            "name": "Psychology"
+          },
+          {
+            "name": "Public health"
+          },
+          {
+            "name": "Radiology"
+          },
+          {
+            "name": "Recreation therapy"
+          },
+          {
+            "name": "Rehabilitation medicine"
+          },
+          {
+            "name": "Respiratory medicine"
+          },
+          {
+            "name": "Respiratory therapy"
+          },
+          {
+            "name": "Rheumatology"
+          },
+          {
+            "name": "Sports medicine"
+          },
+          {
+            "name": "Surgery"
+          },
+          {
+            "name": "Urology"
+          },
+          {
+            "name": "Veterinary medicine"
+          }
+        ]
+      },
+      {
+        "name": "Military sciences",
+        "subs": [
+          {
+            "name": "Amphibious warfare"
+          },
+          {
+            "name": "Artillery"
+          },
+          {
+            "name": "Battlespace"
+          },
+          {
+            "name": "Campaigning"
+          },
+          {
+            "name": "Military engineering"
+          },
+          {
+            "name": "Doctrine"
+          },
+          {
+            "name": "Game theory"
+          },
+          {
+            "name": "Grand strategy"
+          },
+          {
+            "name": "Leadership"
+          },
+          {
+            "name": "Logistics"
+          },
+          {
+            "name": "Military history"
+          },
+          {
+            "name": "Military intelligence"
+          },
+          {
+            "name": "Military law"
+          },
+          {
+            "name": "Military medicine"
+          },
+          {
+            "name": "Naval engineering"
+          },
+          {
+            "name": "Organization"
+          },
+          {
+            "name": "Strategy"
+          },
+          {
+            "name": "Tactics"
+          },
+          {
+            "name": "Military weapons"
+          },
+          {
+            "name": "Asymmetric warfare"
+          }
+        ]
+      },
+      {
+        "name": "Public administration",
+        "subs": [
+          {
+            "name": "Corrections"
+          },
+          {
+            "name": "Conservation biology"
+          },
+          {
+            "name": "Criminal justice"
+          },
+          {
+            "name": "Emergency management"
+          },
+          {
+            "name": "Fire safety"
+          },
+          {
+            "name": "Fire ecology"
+          },
+          {
+            "name": "Governmental affairs"
+          },
+          {
+            "name": "International affairs"
+          },
+          {
+            "name": "Peace and conflict studies"
+          },
+          {
+            "name": "Police science"
+          },
+          {
+            "name": "Policy studies"
+          },
+          {
+            "name": "Public administration"
+          },
+          {
+            "name": "Agricultural policy"
+          },
+          {
+            "name": "Cultural policy"
+          },
+          {
+            "name": "Domestic policy"
+          },
+          {
+            "name": "Drug policy"
+          },
+          {
+            "name": "Economic policy"
+          },
+          {
+            "name": "Education policy"
+          },
+          {
+            "name": "Energy policy"
+          },
+          {
+            "name": "Environmental policy"
+          },
+          {
+            "name": "Food policy"
+          },
+          {
+            "name": "Foreign policy"
+          },
+          {
+            "name": "Health policy"
+          },
+          {
+            "name": "Housing policy"
+          },
+          {
+            "name": "Immigration policy"
+          },
+          {
+            "name": "Knowledge policy"
+          },
+          {
+            "name": "Language policy"
+          },
+          {
+            "name": "Military policy"
+          },
+          {
+            "name": "Science policy"
+          },
+          {
+            "name": "Social policy"
+          },
+          {
+            "name": "Criminal justice"
+          },
+          {
+            "name": "Criminal justice"
+          },
+          {
+            "name": "Criminal justice"
+          }
+        ]
+      },
+      {
+        "name": "Social work",
+        "subs": [
+          {
+            "name": "Child welfare"
+          },
+          {
+            "name": "Human Services"
+          },
+          {
+            "name": "Corrections"
+          },
+          {
+            "name": "Gerontology"
+          },
+          {
+            "name": "Medical social work"
+          },
+          {
+            "name": "Mental health"
+          },
+          {
+            "name": "School social work"
+          }
+        ]
+      },
+      {
+        "name": "Transportation",
+        "subs": [
+          {
+            "name": "Highway safety"
+          },
+          {
+            "name": "Infographics"
+          },
+          {
+            "name": "Intermodal transportation studies"
+          },
+          {
+            "name": "Marine transportation"
+          },
+          {
+            "name": "Operations research"
+          },
+          {
+            "name": "Mass transit"
+          }
+        ]
+      }
+    ]
+  }
+]

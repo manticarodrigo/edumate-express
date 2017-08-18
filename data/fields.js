@@ -2,7 +2,7 @@ const fs = require('fs');
 const request = require('request');
 const cheerio = require('cheerio');
 
-var searchUrl = 'https://en.wikipedia.org/wiki/Outline_of_academic_disciplines';
+var searchUrl = 'https://en.wikipedia.org/wiki/List_of_academic_fields';
 var savedData = [];
 
 request(searchUrl, function(err, response, html) {
@@ -28,19 +28,33 @@ request(searchUrl, function(err, response, html) {
         name: subName,
         subs: []
       }
-      var subSection = $(this).parent().nextAll('.div-col').first();
+      var subSection = $(this).parent().nextUntil('h3');
       subSection.find("> ul > li").each(function() {
         var subSubSectionName = $(this).find('a').first().text();
         // console.log(subSubSectionName);
-        subNode.subs.push({name: subSubSectionName});
+        if (subSubSectionName != "") {
+          subNode.subs.push({name: subSubSectionName});
+        }
       });
+      subSection.find(".multicol td").find("> ul > li").each(function() {
+        var subSubSectionName = $(this).find('a').first().text();
+        // console.log(subSubSectionName);
+        if (subSubSectionName != "") {
+          subNode.subs.push({name: subSubSectionName});
+        }
+      });
+      if (subNode.subs.length < 1) {
+        delete subNode.subs;
+      }
       node.subs.push(subNode);
     });
     // console.log("end section");
-    savedData.push(node);
+    if (node.subs.length >= 1) {
+      savedData.push(node);
+    }
   });
-  const content = JSON.stringify(savedData);
-  fs.writeFile("./data/interests.json", content, 'utf8', function (err) {
+  const content = JSON.stringify(savedData, null, 2);
+  fs.writeFile("./data/fields.json", content, 'utf8', function (err) {
     if (err) {
       return console.log(err);
     }
