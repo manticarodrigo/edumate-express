@@ -29,7 +29,8 @@ exports.createInterest = function(req, res, next) {
 
 exports.deleteInterest = function(req, res, next) {
   Interest.remove({
-    _id : req.params.interest_id
+    user_id: req.params.user_id,
+    name: req.params.interest_name
   }, function(err, interest) {
     if (err) {
       return res.status(500).send(err);

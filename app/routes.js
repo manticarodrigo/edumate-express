@@ -62,7 +62,7 @@ module.exports = function(app) {
 	
 	interestRoutes.get('/:user_id', requireAuth, InterestController.getInterests);
 	interestRoutes.post('/:user_id', requireAuth, InterestController.createInterest);
-	interestRoutes.delete('/:interest_id', requireAuth, InterestController.deleteInterest);
+	interestRoutes.delete('/:user_id/:interest_name', requireAuth, InterestController.deleteInterest);
 
 	// Set up routes
 	app.use('/api', apiRoutes);
