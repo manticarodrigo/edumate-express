@@ -14,7 +14,7 @@ function setUserInfo(req) {
 		email: req.email,
 		firstName: req.firstName,
 		lastName: req.lastName,
-		username: req.username,
+		username: req.username.toLowerCase(),
 		imageUrl: req.imageUrl,
 		role: req.role
 	};
@@ -31,7 +31,7 @@ exports.login = function(req, res, next) {
  
 exports.register = function(req, res, next) {
 	const email = req.body.email;
-	const username = req.body.email;
+	const username = req.body.username;
 	const firstName = req.body.firstName;
 	const lastName = req.body.lastName;
 	const password = req.body.password;
