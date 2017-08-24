@@ -1,7 +1,7 @@
 const AuthenticationController = require('./controllers/authentication'),
-    UserController = require('./controllers/user'),
+		UserController = require('./controllers/user'),
+		PostController = require('./controllers/post'),
     TaskController = require('./controllers/task'),
-		FeedController = require('./controllers/feed'),
 		InterestController = require('./controllers/interest'),
     express = require('express'),
     passportService = require('../config/passport'),
@@ -25,8 +25,8 @@ module.exports = function(app) {
 	const apiRoutes = express.Router(),
 			authRoutes = express.Router(),
 			userRoutes = express.Router(),
+			postRoutes = express.Router(),
 			taskRoutes = express.Router(),
-			feedRoutes = express.Router(),
 			interestRoutes = express.Router();
 
 	// Auth Routes
@@ -45,17 +45,19 @@ module.exports = function(app) {
 	userRoutes.post('/', requireAuth, UserController.updateUser);
 	userRoutes.post('/image', requireAuth, multer.single('file'), UserController.updateImage);
 
+	// Post Routes
+	apiRoutes.use('/post', postRoutes);
+	
+	postRoutes.get('/:user_id', requireAuth, PostController.getPosts);
+	postRoutes.post('/', requireAuth, PostController.createPost);
+	postRoutes.delete('/:post_id', requireAuth, PostController.deletePost);
+
 	// Task Routes
 	apiRoutes.use('/task', taskRoutes);
 
 	taskRoutes.get('/:user_id', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.getTasks);
-	taskRoutes.post('/:user_id', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.createTask);
+	taskRoutes.post('/', requireAuth, AuthenticationController.roleAuthorization(['learner','instructor', 'admin']), TaskController.createTask);
 	taskRoutes.delete('/:task_id', requireAuth, AuthenticationController.roleAuthorization(['instructor', 'admin']), TaskController.deleteTask);
-
-	// Feed Routes
-	apiRoutes.use('/feed', feedRoutes);
-
-	feedRoutes.get('/:searchTerm', requireAuth, FeedController.search);
 
 	// Interest Routes
 	apiRoutes.use('/interest', interestRoutes);

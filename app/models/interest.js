@@ -1,19 +1,21 @@
 const mongoose = require('mongoose');
+const Schema = require('mongoose').Schema;
 
 const InterestSchema = new mongoose.Schema({
- name: {
-   type: String,
-   required: true
- },
- path: {
-   type: String
- },
- user_id: {
-   type: String,
-   required: true
- }
+  _user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  path: {
+    type: String
+  }
 }, {
- timestamps: true
+  timestamps: true
 });
 
 InterestSchema.index({ path: 1 });

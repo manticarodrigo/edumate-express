@@ -2,7 +2,7 @@ const Task = require('../models/task');
  
 exports.getTasks = function(req, res, next) {
 	Task.find({
-		user_id: req.params.user_id
+		_user: req.params.user_id
 	 }, function(err, todos) {
 		if (err) {
 			return res.send(err);
@@ -17,7 +17,7 @@ exports.createTask = function(req, res, next) {
 			return res.status(500).send(err);
 		}
 		Task.find({
-			user_id: req.params.user_id
+			_user: req.body.user_id
 		 }, function(err, tasks) {
 			if (err) {
 				return res.status(500).send(err);

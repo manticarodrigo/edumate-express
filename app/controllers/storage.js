@@ -10,31 +10,32 @@ function getPublicUrl(filename) {
 
 let ImgUpload = {};
 
-ImgUpload.uploadToGcs = (req) => {
-  if(!req.file) return next();
+ImgUpload.uploadToGcs = (file, path) => {
+  if (!file) return next();
   return new Promise((resolve, reject) => {
-    // Can optionally add a path to the gcsname below by concatenating it before the filename
-    const gcsname = req.file.originalname;
-    const file = bucket.file(gcsname);
+    // add path to the gcsname below by concatenating it before the filename
+    const gcsname = path + Date.now() + '_' + file.originalname;
+    const uploadFile = bucket.file(gcsname);
+    console.log(gcsname);
 
-    const stream = file.createWriteStream({
+    const stream = uploadFile.createWriteStream({
       metadata: {
-        contentType: req.file.mimetype
+        contentType: file.mimetype
       }
     });
 
     stream.on('error', (err) => {
-      req.file.cloudStorageError = err;
+      file.cloudStorageError = err;
       reject(err);
     });
 
     stream.on('finish', () => {
-      req.file.cloudStorageObject = gcsname;
-      req.file.cloudStoragePublicUrl = getPublicUrl(gcsname);
-      resolve(req.file.cloudStoragePublicUrl);
+      file.cloudStorageObject = gcsname;
+      file.cloudStoragePublicUrl = getPublicUrl(gcsname);
+      resolve(file.cloudStoragePublicUrl);
     });
 
-    stream.end(req.file.buffer);
+    stream.end(file.buffer);
   });
 }
 

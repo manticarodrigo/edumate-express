@@ -2,7 +2,7 @@ const Interest = require('../models/interest');
 
 exports.getInterests = function(req, res, next) {
   Interest.find({
-    user_id: req.params.user_id
+    _user: req.params.user_id
   }, function(err, interests) {
     if (err) {
       return res.send(err);
@@ -17,7 +17,7 @@ exports.createInterest = function(req, res, next) {
       return res.status(500).send(err);
     }
     Interest.find({
-    user_id: req.params.user_id
+      _user: req.params.user_id
     }, function(err, interests) {
       if (err) {
         return res.status(500).send(err);
@@ -29,7 +29,7 @@ exports.createInterest = function(req, res, next) {
 
 exports.deleteInterest = function(req, res, next) {
   Interest.remove({
-    user_id: req.params.user_id,
+    _user: req.params.user_id,
     name: req.params.interest_name
   }, function(err, interest) {
     if (err) {
