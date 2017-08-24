@@ -31,7 +31,7 @@ exports.login = function(req, res, next) {
  
 exports.register = function(req, res, next) {
 	const email = req.body.email;
-	const username = req.body.username;
+	const username = req.body.username.toLowerCase();
 	const firstName = req.body.firstName;
 	const lastName = req.body.lastName;
 	const password = req.body.password;
