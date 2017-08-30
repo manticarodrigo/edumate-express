@@ -1,12 +1,12 @@
 const AuthenticationController = require('./controllers/authentication'),
-		UserController = require('./controllers/user'),
-		PostController = require('./controllers/post'),
-    TaskController = require('./controllers/task'),
-		InterestController = require('./controllers/interest'),
-    express = require('express'),
-    passportService = require('../config/passport'),
-    passport = require('passport'),
-    Multer = require('multer');
+			UserController = require('./controllers/user'),
+			PostController = require('./controllers/post'),
+			TaskController = require('./controllers/task'),
+			InterestController = require('./controllers/interest'),
+			express = require('express'),
+			passportService = require('../config/passport'),
+			passport = require('passport'),
+			Multer = require('multer');
 
 // Handles the multipart/form-data
 // Adds a .file key to the request object
@@ -18,16 +18,16 @@ const multer = Multer({
 });
  
 const requireAuth = passport.authenticate('jwt', {session: false}),
-    requireLogin = passport.authenticate('local', {session: false});
+    	requireLogin = passport.authenticate('local', {session: false});
  
 module.exports = function(app) {
  
 	const apiRoutes = express.Router(),
-			authRoutes = express.Router(),
-			userRoutes = express.Router(),
-			postRoutes = express.Router(),
-			taskRoutes = express.Router(),
-			interestRoutes = express.Router();
+				authRoutes = express.Router(),
+				userRoutes = express.Router(),
+				postRoutes = express.Router(),
+				taskRoutes = express.Router(),
+				interestRoutes = express.Router();
 
 	// Auth Routes
 	apiRoutes.use('/auth', authRoutes);
@@ -63,7 +63,7 @@ module.exports = function(app) {
 	apiRoutes.use('/interest', interestRoutes);
 	
 	interestRoutes.get('/:user_id', requireAuth, InterestController.getInterests);
-	interestRoutes.post('/:user_id', requireAuth, InterestController.createInterest);
+	interestRoutes.post('/', requireAuth, InterestController.createInterest);
 	interestRoutes.delete('/:user_id/:interest_name', requireAuth, InterestController.deleteInterest);
 
 	// Set up routes

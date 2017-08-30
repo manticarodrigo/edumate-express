@@ -17,7 +17,7 @@ exports.createInterest = function(req, res, next) {
       return res.status(500).send(err);
     }
     Interest.find({
-      _user: req.params.user_id
+      _user: req.body._user
     }, function(err, interests) {
       if (err) {
         return res.status(500).send(err);

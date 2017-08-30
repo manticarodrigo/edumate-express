@@ -1,10 +1,10 @@
 const Post = require('../models/post');
+const Poll = require('../models/poll');
 
 exports.getPosts = function(req, res, next) {
   Post.find({ _author: req.params.user_id })
-  .populate('author', ['firstName', 'lastName', '_id'])
-  .populate('poll')
-  .populate('comments.postedBy', ['firstName', 'lastName', '_id'])
+  .populate('_author', ['firstName', 'lastName', 'imageUrl', '_id'])
+  .populate('_poll')
   .exec(function(err, posts) {
     if (err) {
       return res.send(err);
@@ -18,11 +18,12 @@ exports.createPost = function(req, res, next) {
     if (err) {
       return res.status(500).send(err);
     }
-    Post.find({
-      _author: req.params.user_id
-    }, function(err, posts) {
+    Post.find({ _author: req.params.user_id })
+    .populate('_author', ['firstName', 'lastName', 'imageUrl', '_id'])
+    .populate('_poll')
+    .exec(function(err, posts) {
       if (err) {
-        return res.status(500).send(err);
+        return res.send(err);
       }
       res.json(posts);
     });
